@@ -1,0 +1,34 @@
+{
+  "canisters": {
+    "reliefchain_frontend": {
+      "dependencies": [
+        "donation_management"
+      ],
+      "source": [
+        "src/reliefchain_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "reliefchain_frontend"
+    },
+    "donation_management": {
+      "main": "src/donation_management/main.mo",
+      "type": "motoko"
+    },
+    "resource_allocation": {
+      "main": "src/resource_allocation/main.mo",
+      "type": "motoko"
+    },
+    "identity_verification": {
+      "main": "src/identity_verification/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

@@ -1,0 +1,44 @@
+/* src/components/GlobalMap.css */
+.global-map-container {
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .global-map-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .global-map-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .map-filters {
+    margin-top: 1rem;
+  }
+  
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #ccc;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .filter-btn.active {
+    background: #2575fc;
+    color: white;
+  }
+  
+  .filter-btn:hover {
+    background: #0056b3;
+    color: white;
+  }
+  

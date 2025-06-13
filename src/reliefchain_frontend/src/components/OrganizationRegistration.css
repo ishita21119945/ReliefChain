@@ -1,0 +1,56 @@
+/* src/components/OrganizationRegistration.css */
+.org-registration {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .org-registration h2 {
+    text-align: center;
+    color: #2575fc;
+    margin-bottom: 1rem;
+  }
+  
+  .org-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .org-form input,
+  .org-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .org-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .org-form button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .org-form button:hover {
+    background: #0056b3;
+  }
+  

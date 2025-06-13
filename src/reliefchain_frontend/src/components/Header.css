@@ -1,0 +1,37 @@
+/* src/components/Header.css */
+.global-header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .global-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-item:hover {
+    color: #2575fc;
+  }
+  
+  .logout-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
