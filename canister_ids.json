@@ -4,5 +4,11 @@
   },
   "identity_verification": {
     "ic": "spcys-6iaaa-aaaab-qbz7q-cai"
+  },
+  "reliefchain_frontend": {
+    "ic": "fajkw-eiaaa-aaaab-qb2dq-cai"
+  },
+  "resource_allocation": {
+    "ic": "enhoy-laaaa-aaaab-qb2ea-cai"
   }
 }
